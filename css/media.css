@@ -1,0 +1,151 @@
+/*====== md: 768px ~ 992px ======*/
+@media screen and (min-width: 768px) {
+  /* ====== Reusable Classes ====== */
+  .box-shadow-full {
+    padding-block: 4rem !important;
+    padding-inline: 3rem !important;
+  }
+
+  /* ====== Header ====== */
+  .header-title {
+    font-size: var(--size-72) !important;
+  }
+
+  .header h2::after {
+    font-size: var(--size-40) !important;
+  }
+
+  /* ====== About ====== */
+  .about-img picture {
+    width: 100%;
+  }
+
+  /* ====== Portfolio ====== */
+  .card-btn-container {
+    align-items: flex-start !important;
+  }
+
+  /* ====== Blog ====== */
+  .card-footer {
+    flex-direction: column;
+  }
+
+  .card-date {
+    align-self: flex-end;
+  }
+
+  /* ====== Light-Box ====== */
+  .modal {
+    background-color: var(--lightbox-bg);
+  }
+}
+
+/*====== lg: 1200px ~ 992px======*/
+@media screen and (min-width: 992px) {
+  /* ====== Reusable Classes ====== */
+  .bg-img {
+    background-attachment: fixed;
+  }
+
+  /* ====== navbar ====== */
+  .sidebar-body {
+    background-color: transparent !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+  }
+
+  .navbar-nav .nav-item {
+    padding-block: 0.625rem;
+    padding-left: 1.875rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0 !important;
+    color: var(--white-color);
+  }
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: var(--white-color);
+  }
+
+  .navbar-nav .nav-link.active::before {
+    width: 80%;
+  }
+
+  .nav-item > a::before {
+    content: "";
+    background-color: var(--white-color);
+    position: absolute;
+    width: 0;
+    height: 0.125rem;
+    bottom: -0.375rem;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-item:hover > a::before {
+    width: 80%;
+  }
+
+  .navbar .nav-item:hover > .nav-link {
+    color: var(--white-color);
+  }
+
+  .navbar .outer-menu {
+    top: 1.625rem;
+  }
+
+  .navbar .inner-menu {
+    top: 0;
+    left: -112%;
+    border: 0;
+    padding-block: 0.625rem;
+  }
+
+  .navbar .dropdown:hover > .outer-menu {
+    position: absolute;
+    left: 0;
+    top: 1.625rem;
+  }
+
+  .navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  /* ====== About ====== */
+  .about-img picture {
+    width: 9.375rem;
+  }
+
+  /* ====== Portfolio ====== */
+  .portfolio .card-title {
+    min-width: 12rem;
+  }
+  
+  .card-btn-container {
+    align-items: center !important;
+  }
+
+  /* ====== Testimonials ====== */
+  .carousel-text > p {
+    padding-inline: 13rem;
+  }
+
+  /* ====== Blog ====== */
+  .card-footer {
+    flex-direction: row;
+  }
+
+  .card-date {
+    align-self: auto;
+  }
+}
+
+/*====== xxl: >> 1400px======*/
+@media screen and (min-width: 1400px) {
+  /* ====== navbar ====== */
+  .navbar .inner-menu {
+    left: 88%;
+  }
+}
