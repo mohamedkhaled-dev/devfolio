@@ -12,7 +12,7 @@ Hi there! DevFolio is my fourth project, and it’s a portfolio website I built 
 ## 📸 Preview
 Here’s a sneak peek of the project:
 
-![DevFolio Preview](https://github.com/mohamedkhaled-dev/devfolio/blob/master/src/screenshot/DevFolio.png)
+![DevFolio Preview](https://github.com/mohamedkhaled-dev/devfolio/blob/main/src/screenshot/DevFolio.png)
 
 
 ## 🚀 Check It Out
